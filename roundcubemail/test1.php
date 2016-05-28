@@ -43,9 +43,9 @@ require_once 'program/include/iniset.php';
 $RCMAIL = rcmail::get_instance(0, $GLOBALS['env']);
 
 //print_r($RCMAIL->action);
-echo 'echo  $RCMAIL->rcmail->action();<br>';
+echo 'echo  $RCMAIL->action();<br>';
 
-echo $RCMAIL->rcmail->action();
+echo $RCMAIL->action();
 
 echo "<hr>";
 echo "--- VERY CUTE! ---";
