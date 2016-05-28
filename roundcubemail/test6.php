@@ -46,7 +46,7 @@ $RCMAIL = rcmail::get_instance(0, $GLOBALS['env']);
 echo 'print_r($RCMAIL->user->data);<hr> ';
 print_r($RCMAIL->user->data);
 echo "<hr>";
-
+echo 'foreach ($arr as $key => $value)<br> ';
 $arr=$RCMAIL->user->data;
 foreach ($arr as $key => $value){
 echo "$key => $value <br>";
