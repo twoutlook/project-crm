@@ -43,6 +43,8 @@ require_once 'program/include/iniset.php';
 $RCMAIL = rcmail::get_instance(0, $GLOBALS['env']);
 
 print_r($RCMAIL);
+echo "<hr>";
+echo json_encode($RCMAIL);
 return;
 
 
