@@ -46,6 +46,8 @@ $RCMAIL = rcmail::get_instance(0, $GLOBALS['env']);
 echo 'echo  $RCMAIL->rcmail;<br>';
 
 echo $RCMAIL->rcmail;
+print_r( $RCMAIL->rcmail);
+
 
 echo "<hr>";
 echo "--- VERY CUTE! ---";
