@@ -50,7 +50,9 @@ echo 'foreach ($arr as $key => $value)<br> ';
 $arr=$RCMAIL->user->data;
 foreach ($arr as $key => $value){
 echo "$key => $value <br>";
-    
+echo "<hr>";
+echo 'echo $arr[\'username\'] ;  <br> ';
+echo $arr['username'] ;   
 }
 
 
