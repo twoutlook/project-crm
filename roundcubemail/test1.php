@@ -43,10 +43,10 @@ require_once 'program/include/iniset.php';
 $RCMAIL = rcmail::get_instance(0, $GLOBALS['env']);
 
 //print_r($RCMAIL->action);
-echo 'echo  $RCMAIL->rcmail;<br>';
+echo 'echo  zzz $RCMAIL->rcmail["task"];<br>';
 
-echo $RCMAIL->rcmail;
-print_r( $RCMAIL->rcmail);
+echo $RCMAIL->rcmail["task"];
+//print_r( $RCMAIL->rcmail);
 
 
 echo "<hr>";
