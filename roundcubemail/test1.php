@@ -42,7 +42,7 @@ require_once 'program/include/iniset.php';
 // init application, start session, init output class, etc.
 $RCMAIL = rcmail::get_instance(0, $GLOBALS['env']);
 
-print_r($RCMAIL['action']);
+print_r($RCMAIL->action);
 echo "<hr>";
 
 print_r($RCMAIL);
