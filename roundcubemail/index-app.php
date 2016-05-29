@@ -55,8 +55,15 @@ foreach ($arr as $key => $value) {
 echo "<hr>";
 echo 'echo $arr[\'username\'] ;  <br> ';
 echo $arr['username'];
+echo 'echo $arr[\'user_id\'] ;  <br> ';
+echo $arr['user_id'];
 
 
+$grp_id[1] = array(1, 2, 3);
+if (in_array($arr['user_id'], $grp_id[1])) {
+    echo "<hr>";
+    echo 'member of grp_id[1]  <br> ';
+}
 
 
 return;

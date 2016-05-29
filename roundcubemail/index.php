@@ -40,6 +40,10 @@
 require_once 'program/include/iniset.php';
 
 // init application, start session, init output class, etc.
+// NOTE: by Mark
+// rcmail extending rcube,
+// get_instance is defined in rcube for singleton
+
 $RCMAIL = rcmail::get_instance(0, $GLOBALS['env']);
 
 // Make the whole PHP output non-cacheable (#1487797)
