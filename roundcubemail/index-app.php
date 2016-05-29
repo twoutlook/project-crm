@@ -55,6 +55,7 @@ foreach ($arr as $key => $value) {
 echo "<hr>";
 echo 'echo $arr[\'username\'] ;  <br> ';
 echo $arr['username'];
+echo "<hr>";
 echo 'echo $arr[\'user_id\'] ;  <br> ';
 echo $arr['user_id'];
 
